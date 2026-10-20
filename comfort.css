@@ -30,3 +30,6 @@ h1{font-size:33px}h2{font-size:22px}h3{font-size:18px}.card p{font-size:14px;col
 /* Let the handwritten CER cards be read in the illustration. */
 .topic-cer{grid-template-columns:minmax(0,1.45fr) minmax(0,.85fr)}.topic-cer>.inquiry-illustration{position:static}.topic-cer .illustration-labels{font-size:18px}
 @media(max-width:1000px){.topic-cer{grid-template-columns:1fr}.topic-cer>.inquiry-illustration{max-width:none}}
+
+.tool-title{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%}.tool-title>span:first-child{min-width:0}.tool-brand{display:inline-flex;flex-direction:column;align-items:center;gap:4px;flex-shrink:0;vertical-align:middle;margin-left:8px}.tool-brand a{display:flex;align-items:center;flex-wrap:wrap;justify-content:center;gap:6px;max-width:130px}.tool-brand img{display:block;width:auto;max-width:110px;height:38px;object-fit:contain;background:transparent}.tool-brand small{font-size:10px;line-height:1.5;color:var(--muted);font-weight:400}.tool-brand a:focus-visible{outline:2px solid var(--green);border-radius:4px}#detail-body h2 .tool-brand{margin-left:18px}.tool-brand img[src$="python.svg"]{height:26px;max-width:90px}
+@media(max-width:400px){.tool-brand img{max-width:90px;height:32px}.tool-brand a{max-width:95px}}

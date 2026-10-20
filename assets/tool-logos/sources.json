@@ -1,0 +1,92 @@
+{
+  "chatgpt": {
+    "file": "chatgpt.svg",
+    "source": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/openai.svg",
+    "info": "vector"
+  },
+  "notebooklm": {
+    "file": "notebooklm.svg",
+    "source": "https://www.gstatic.com/tailwind/_/static/branding/v6/light_mode/favicon/favicon.svg",
+    "info": "vector"
+  },
+  "elicit": {
+    "file": "elicit.png",
+    "source": "https://framerusercontent.com/images/GBpaTmhagvahuZIt8uDryBpioi4.png",
+    "info": "(64, 64) alpha (0, 255)"
+  },
+  "consensus": {
+    "file": "consensus.svg",
+    "source": "https://consensus.app/favicon.svg",
+    "info": "vector"
+  },
+  "scispace": {
+    "file": "scispace.svg",
+    "source": "https://scispace.com/favicon.ico",
+    "info": "vector"
+  },
+  "teachable-machine": {
+    "file": "teachable-machine.png",
+    "source": "https://teachablemachine.withgoogle.com/assets/img/favicon.png",
+    "info": "(180, 180) alpha (0, 255)"
+  },
+  "birdnet": {
+    "file": "birdnet.png",
+    "source": "https://birdnet.cornell.edu/img/logo-birdnet-circle.png",
+    "info": "(1831, 1831) alpha (0, 255)"
+  },
+  "inaturalist": {
+    "file": "inaturalist.svg",
+    "source": "https://static.inaturalist.org/sites/1-logo.svg?1573071870",
+    "info": "vector"
+  },
+  "roboflow": {
+    "file": "roboflow.svg",
+    "source": "https://roboflow.com/_next/static/immutable/media/roboflow-logo-ink.2qr4qywk0cnu8.svg",
+    "info": "vector"
+  },
+  "colab": {
+    "file": "colab.png",
+    "source": "https://ssl.gstatic.com/colaboratory-static/common/7a710b5d9351e60bafbe4ea199eb8f8f/img/favicon.ico",
+    "info": "(128, 128) alpha (0, 255)"
+  },
+  "orange": {
+    "file": "orange.svg",
+    "source": "https://orangedatamining.com/_next/static/media/logo-orange.faff1861.svg",
+    "info": "vector"
+  },
+  "knime": {
+    "file": "knime.svg",
+    "source": "https://www.knime.com/images/knime-logo.svg",
+    "info": "vector"
+  },
+  "tensorflow": {
+    "file": "tensorflow.svg",
+    "source": "https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/tensorflow/images/lockup.svg",
+    "info": "vector"
+  },
+  "pytorch": {
+    "file": "pytorch.svg",
+    "source": "https://pytorch.org/wp-content/uploads/2024/10/logo.svg",
+    "info": "vector"
+  },
+  "alphafold": {
+    "file": "alphafold.png",
+    "source": "https://alphafold.ebi.ac.uk/assets/favicons/favicon-32x32.png",
+    "info": "(32, 32) alpha (0, 255)"
+  },
+  "deepmind": {
+    "file": "deepmind.svg",
+    "source": "https://storage.googleapis.com/gdm-deepmind-com-prod-public/icons/google_deepmind_48dp.svg",
+    "info": "vector"
+  },
+  "berkeley-lab": {
+    "file": "berkeley-lab.png",
+    "source": "https://creative.lbl.gov/wp-content/uploads/sites/3/2019/12/LBL_Masterbrand_pos.png",
+    "info": "(723, 232) alpha (0, 255)"
+  },
+  "python": {
+    "file": "python.svg",
+    "source": "https://www.python.org/static/community_logos/python-logo-generic.svg",
+    "info": "vector"
+  }
+}
