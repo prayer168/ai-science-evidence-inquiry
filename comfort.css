@@ -22,3 +22,7 @@ h1{font-size:33px}h2{font-size:22px}h3{font-size:18px}.card p{font-size:14px;col
 
 .cycle-readable{grid-template-columns:repeat(2,minmax(0,1fr))}.cycle-readable li:last-child{grid-column:1/-1}.cycle-readable-button{height:100%;align-items:flex-start;padding:9px 10px}.cycle-readable-button>span{min-width:0}
 @media(max-width:600px){.cycle-readable{grid-template-columns:1fr}}
+
+/* Core questions stay next to their illustration. */
+.topic-core{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px}.topic-core>.inquiry-illustration{margin:0;max-width:none}.core-questions{list-style:none;padding:0;margin:0;display:grid;gap:10px}.core-questions li{display:flex;gap:12px;align-items:flex-start;background:#e4ecd8;border:1px solid #c5d3ba;border-radius:10px;padding:12px 16px}.core-questions li>b{width:32px;height:32px;flex-shrink:0;display:grid;place-items:center;border-radius:50%;background:var(--green);color:white;font-size:19px}.core-questions h3{margin:0 0 4px;font-size:20px;line-height:1.5}.core-questions p{margin:0;font-size:16px;line-height:1.7}.inquiry-slide-content .core-questions h3{font-size:24px}.inquiry-slide-content .core-questions p{font-size:20px;line-height:1.6}
+@media(max-width:900px){.topic-core{grid-template-columns:1fr}.topic-core>.inquiry-illustration{max-width:650px;margin:auto}}
