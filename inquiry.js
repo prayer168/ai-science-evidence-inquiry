@@ -26,14 +26,28 @@ const inquiryCards = [
 ].map(([t,p,k])=>`<details><summary>${t}</summary><p>${p}</p><button class="button secondary" data-template="${k}">下載可編輯文字模板 ↓</button></details>`).join('')}</div><p>模板為 Markdown 純文字，可貼入文件編輯器再列印。下載內容不含學生個資或任何預填研究結果。</p>`}
 ];
 const inquirySources=[['A Framework for K–12 Science Education：多樣化的科學實作','https://www.nationalacademies.org/read/13165/chapter/7'],['NGSS Science and Engineering Practices：問題、模型、證據與溝通','https://www.nextgenscience.org/'],['Inquiry and the National Science Education Standards','https://www.nationalacademies.org/read/9596/chapter/3']];
+const inquiryImages={
+ hero:['inquiry-teacher','男老師引導學生觀察葉片、測量與記錄。'],
+ meaning:['meaning-plant','同一盆植物的觀察、提問與測量紀錄三個場景。'],
+ cycle:['inquiry-cycle','觀察、提問、預測、規劃、記錄、分析及溝通七個探究場景。'],
+ core:['inquiry-core','放大鏡、天平、紀錄表、拼圖與重複測量象徵五項探究核心。'],
+ example:['sugar-comparison','相同容器、水量與糖量的兩組比較裝置；僅改變開始水溫。'],
+ cer:['cer-discussion','學生與男老師共同討論主張、證據及推理，卡片為教學留白。'],
+ ai:['ai-support','電腦協助整理，學生實際測量，教師引導核對參考來源。'],
+ methods:['inquiry-methods','觀察鳥類、分類落葉、建構模型與比較資料四種探究方法。'],
+ mistakes:['mistakes-correction','左側同時改變多項條件，右側調整為一致容器、水量及糖量的比較。'],
+ ethics:['safety-ethics','安全溫水操作、尊重生物、照片隱私及誠實記錄四個情境。'],
+ tools:['teacher-toolkit','男老師整理研究問題卡、變因表、觀察紀錄、CER及評量檢核表。']
+};
 function inquiryIllustration(topic){
- const images={meaning:['inquiry-teacher','戴眼鏡、穿綠襯衫與黑熊圖案黑色T恤的男老師，引導學生觀察葉片、測量與記錄。'],example:['sugar-comparison','相同容器、水量與糖量的兩組比較裝置；僅改變開始水溫。'],cer:['cer-discussion','學生與男老師共同討論主張、證據及推理，卡片為教學留白。']};
- const image=images[topic];if(!image)return '';
- const labels=topic==='cer'?'<div class="illustration-labels"><b>主張 Claim</b><b>證據 Evidence</b><b>推理 Reasoning</b></div>':topic==='example'?'<div class="illustration-labels"><b>開始水溫 20°C</b><b>開始水溫 40°C</b></div>':'';
- return `<figure class="inquiry-illustration">${labels}<img src="assets/inquiry/${image[0]}.webp" alt="${image[1]}" loading="lazy" width="1536" height="1024"><figcaption>AI 生成教學示意 · 非實驗照片${topic==='example'?'；湯匙不參與本例操作，兩組皆不攪拌。溫度與模擬數據以文字說明為準。':topic==='cer'?'；卡片留白供教學討論，論證示例見文字。':''}</figcaption></figure>`;
+ const image=inquiryImages[topic];if(!image)return '';
+ const titles={meaning:['觀察現象','提出問題','蒐集證據'],cer:['主張 Claim','證據 Evidence','推理 Reasoning'],example:['開始水溫 20°C','開始水溫 40°C'],ai:['AI 整理','學生測量','師生核對'],mistakes:['多項條件不同','只改目標條件']};
+ const labels=titles[topic]?`<div class="illustration-labels">${titles[topic].map(t=>`<b>${t}</b>`).join('')}</div>`:'';
+ const notes={cycle:'；場景為概念示意，探究步驟與回返方式以互動循環圖為準。',example:'；湯匙不參與本例操作，兩組皆不攪拌。溫度與模擬數據以文字說明為準。',cer:'；卡片留白供教學討論，論證示例見文字。',methods:'；模型不是實物，圖卡不是實測資料。',mistakes:'；精確控制條件以文字規劃與實際量測為準。',ethics:'；安全措施與同意程序仍須由教師確認。',tools:'；圖中留白為示意，請下載下方可編輯模板。'};
+ return `<figure class="inquiry-illustration">${labels}<img src="assets/inquiry/${image[0]}.webp" alt="${image[1]}" loading="lazy" width="1536" height="1024"><figcaption>AI 生成教學示意 · 非實驗照片${notes[topic]||''}</figcaption></figure>`;
 }
 function inquiry(){
-  app.innerHTML=heading('inquiry','教師備課、研習分享與學生實作的探究指南。')+`<div class="inquiry-hero illustrated-hero"><div class="hero-copy"><div class="eyebrow">ASK → INVESTIGATE → EXPLAIN ↻</div><h2>不是背出步驟，<br>而是讓每一步都有理由。</h2><p>看見現象，提出問題；用證據說明，也保留修正的空間。</p><button class="primary" data-play-inquiry>以講課圖卡播放 →</button></div>${inquiryIllustration('meaning')}</div><div class="inquiry-toc" aria-label="本頁內容">${inquiryCards.map((c,i)=>`<a href="#inquiry" data-scroll="inq-${c.id}">${String(i+1).padStart(2,'0')} ${c.title}</a>`).join('')}</div>${inquiryCards.map((c,i)=>`<section class="inquiry-section" id="inq-${c.id}"><div class="eyebrow">${String(i+1).padStart(2,'0')} · SCIENTIFIC INQUIRY</div><h2>${c.icon} ${c.title}</h2><p class="subtitle">${c.subtitle}</p>${['example','cer'].includes(c.id)?`<div class="illustrated-topic">${inquiryIllustration(c.id)}<div>${c.html}</div></div>`:c.html}</section>`).join('')}<section class="inquiry-section"><h2>參考來源與使用說明</h2><p>本頁的流程、示例、規準與工具模板為教學整理，不是任何單一課綱的官方逐字版本。循環可以往返；不同研究使用不同方法。示例數據明確標為模擬。</p>${inquirySources.map(([t,u])=>`<p><a class="source-link" target="_blank" rel="noopener" href="${u}">${t} ↗</a></p>`).join('')}<small>內容整理：2026-10-20。流程圖與杯子圖為網頁繪製；人物、實驗裝置與討論情境插畫使用內建圖片生成工具製作，無法指定或確認 Image 2.5 版本。所有插圖均為教學示意，不是研究證據或實驗照片。</small></section>`;
+  app.innerHTML=heading('inquiry','教師備課、研習分享與學生實作的探究指南。')+`<div class="inquiry-hero illustrated-hero"><div class="hero-copy"><div class="eyebrow">ASK → INVESTIGATE → EXPLAIN ↻</div><h2>不是背出步驟，<br>而是讓每一步都有理由。</h2><p>看見現象，提出問題；用證據說明，也保留修正的空間。</p><button class="primary" data-play-inquiry>以講課圖卡播放 →</button></div>${inquiryIllustration('hero')}</div><div class="inquiry-toc" aria-label="本頁內容">${inquiryCards.map((c,i)=>`<a href="#inquiry" data-scroll="inq-${c.id}">${String(i+1).padStart(2,'0')} ${c.title}</a>`).join('')}</div>${inquiryCards.map((c,i)=>`<section class="inquiry-section" id="inq-${c.id}"><div class="eyebrow">${String(i+1).padStart(2,'0')} · SCIENTIFIC INQUIRY</div><h2>${c.icon} ${c.title}</h2><p class="subtitle">${c.subtitle}</p><div class="illustrated-topic topic-${c.id}">${inquiryIllustration(c.id)}<div>${c.html}</div></div></section>`).join('')}<section class="inquiry-section"><h2>參考來源與使用說明</h2><p>本頁的流程、示例、規準與工具模板為教學整理，不是任何單一課綱的官方逐字版本。循環可以往返；不同研究使用不同方法。示例數據明確標為模擬。</p>${inquirySources.map(([t,u])=>`<p><a class="source-link" target="_blank" rel="noopener" href="${u}">${t} ↗</a></p>`).join('')}<small>內容整理：2026-10-20。流程圖與杯子圖為網頁繪製；人物、實驗裝置與討論情境插畫使用內建圖片生成工具製作，無法指定或確認 Image 2.5 版本。所有插圖均為教學示意，不是研究證據或實驗照片。</small></section>`;
   selectInquiryStep(0);
 }
 function selectInquiryStep(i,root=document){const s=inquirySteps[i],out=root.querySelector('#step-description');if(out)out.innerHTML=`<span class="big-symbol">${s[0]}</span><div class="eyebrow">STEP ${i+1}</div><h3>${s[1]}</h3><p><b>${s[2]}</b></p><p>${s[3]}</p>`;root.querySelectorAll('[data-step]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.step)===i)))}

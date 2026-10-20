@@ -1,6 +1,6 @@
 # AI Science Evidence & Inquiry
 
-AI 科學探究研究證據中心 · V1.7.3 插畫閱讀版
+AI 科學探究研究證據中心 · V1.7.4 全主題插畫版
 
 網站：https://prayer168.github.io/ai-science-evidence-inquiry/
 
@@ -62,3 +62,5 @@ Do not commit API keys, local databases, full-text research PDFs, or personal in
 ## 探究插畫
 
 頁首、水溫溶糖與 CER 新增三張 AI 生成插畫，與講課圖卡共用；角色為戴眼鏡、綠襯衫、黑熊圖案黑色 T 恤男老師。圖像為教學示意，未宣稱指定 Image 2.5。文字、控制條件與模擬數據仍由網頁呈現。素材與提示說明見 assets/inquiry/README.md。
+
+V1.7.4：頁首及十個探究主題各有對應插圖，共11張；十個主題圖卡共用各自插圖，不增加分頁。
