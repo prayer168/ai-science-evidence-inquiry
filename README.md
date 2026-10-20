@@ -1,10 +1,16 @@
 # AI Science Evidence & Inquiry
 
-AI 科學探究研究證據中心 · V1.7 資料探索版
+AI 科學探究研究證據中心 · V1.7.1 資料探索與研習版
 
 網站：https://prayer168.github.io/ai-science-evidence-inquiry/
 
 ## 已提供
+
+- 「關於科學探究」：10個內容區塊、互動循環圖、CER、完整溶解案例（模擬數據）與5份 Markdown 工具模板。
+- 19個案例新增背景、AI流程、證據限制、三步驟教學建議與來源。
+- 15個案例有來源圖像；4個以網頁流程圖解搭配原站照片／影音連結。
+- 全螢幕講課模式：單一案例、首頁3個精選、搜尋結果及探究指南；方向鍵換頁、選單選頁與邊界控制。完整文字可捲動。
+- 圖像區分實景、原文圖表、官方示意與網頁教學圖解；沒有宣稱使用 Imagen 2.5。
 
 - 工作台總覽、19 個研究案例、18 項 AI 工具及 5 份探究教案。
 - 關鍵字搜尋、分類篩選、原始來源詳情。
@@ -38,3 +44,9 @@ python -m http.server 8765 --bind 127.0.0.1
 AI 協助蒐集與分析；教師負責證據判斷；人工核准後才正式發布。AI 信心不能取代研究可信度判斷。
 
 Do not commit API keys, local databases, full-text research PDFs, or personal information.
+
+## 開發與檢查
+
+已安裝 Node.js 時可執行 `npm start` 預覽，`npm run check` 執行語法與內容檢查，不需安裝套件。
+
+`data/case-details.json` 是新增案例敘事及來源；原始 V1.6 資料保留。照片及圖表權利屬原發布者，未授予整個儲存庫的通用再利用授權。

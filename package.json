@@ -1,0 +1,9 @@
+{
+  "name": "ai-science-evidence-inquiry",
+  "version": "1.7.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check features.js && node --check inquiry.js && node --test tests/content.test.mjs"
+  }
+}

@@ -1,0 +1,573 @@
+{
+  "AISC-0001": {
+    "story": "臺中市德化國小劉善德教師從數位學習單出發，逐步加入 AI 對話。專案包含自然觀察、實驗紀錄與氣候行動，重點是讓工具支援學生的學習歷程，而不是只產出漂亮答案。",
+    "method": "學生透過平板留下觀察紀錄、討論資料，再運用 ChatGPT 協助理解氣候名詞與草擬倡議講稿；教師引導查核與修改。原專案也介紹自學、組內共學、組間互學與教師導學的安排。",
+    "evidence": "來源為臺灣100專案成果介紹，可用來了解教學活動樣貌。它不是比較 AI 與非 AI 教學的控制實驗，不能據此量化 AI 帶來的學習增益。",
+    "question": "AI 寫出的氣候倡議，哪些句子有資料支持？",
+    "steps": [
+      "選一則氣候報導，圈出可查核的主張與數字。",
+      "學生先畫出自己的證據心智圖，再請 AI 整理講稿。",
+      "逐句回到資料來源核對，保留修改前後版本並說明修改理由。"
+    ],
+    "output": "報導查核表、證據心智圖、附來源的倡議稿。",
+    "image": {
+      "url": "https://tw100-2025.cwgv.org.tw/manasystem/FileData/Contrib/FEF8ECE4-116F-7EB4-A600-F2C2EB692AE0.jpg",
+      "caption": "原專案成果頁照片；教學情境以來源圖說為準。",
+      "credit": "劉善德／2025 未來教育臺灣100專案頁",
+      "source": "https://tw100-2025.cwgv.org.tw/tw100_content.php?SN=7",
+      "kind": "專案照片"
+    },
+    "sources": [
+      {
+        "title": "從數位到AI的自然課｜專案介紹與相片集",
+        "url": "https://tw100-2025.cwgv.org.tw/tw100_content.php?SN=7",
+        "type": "專案報導",
+        "note": "閱讀教案歷程、成果與原站相片；非成效對照研究。"
+      }
+    ]
+  },
+  "AISC-0002": {
+    "story": "高雄市援中國小呂美惠教師以五年級「氧氣與燃燒」單元，將探究活動安排為定標、擇策、監評、調節四階段。學生需要記錄預測與實驗的落差，並提出修正。",
+    "method": "文章介紹數位學習單、Padlet 與因材網 AI 學伴如何協助目標設定、資源選擇及反思。AI 的角色是提供學習鷹架，實際觀察仍來自課堂操作。",
+    "evidence": "這是教學實踐評論，以學習單與互動紀錄說明課程；不能直接視為 AI 造成學習提升的因果證據。原文 PDF 第5頁可見學伴使用照片。",
+    "question": "實驗結果和預測不同時，該改答案，還是檢查方法？",
+    "steps": [
+      "先用影片或教師示範引出氧氣與燃燒問題，寫下自己的預測。",
+      "在教師安全規範下觀察，將觀察事實與 AI 解釋分欄記錄。",
+      "比較預測與證據，寫出要重做或補查的地方，以 CER 說明結論。"
+    ],
+    "output": "目標卡、觀察紀錄、實驗修正單與 CER 說明。",
+    "image": {
+      "url": "assets/cases/oxygen-classroom.jpeg",
+      "caption": "學生操作因材網 AI 學伴的課堂照片，原文 PDF 第5頁（印刷頁171）。",
+      "credit": "呂美惠，臺灣教育評論月刊 15(6)，167–176，2026",
+      "source": "https://ater.org.tw/wordpress/wp-content/uploads/2026/06/15-6_free_2.pdf#page=5",
+      "kind": "原文課堂照片"
+    },
+    "sources": [
+      {
+        "title": "數位輔助國小自然科學探究：以 SRL 四階段教學模式深化學習",
+        "url": "https://ater.org.tw/wordpress/wp-content/uploads/2026/06/15-6_free_2.pdf",
+        "type": "教學文章 PDF",
+        "note": "全文10頁；四階段設計、學習紀錄與照片。"
+      }
+    ],
+    "safety": "燃燒與雙氧水相關活動須由教師評估濃度、火源及防護；不可由學生依 AI 指示自行操作。"
+  },
+  "AISC-0003": {
+    "story": "中央大學團隊將頭戴式擴增實境與 AI Tutor 結合，用在凸透鏡成像學習。學生在實體光學裝置上看見虛擬光線，並能向導師提問。",
+    "method": "AR 讓抽象光路可視化，AI Tutor 提供對話引導。2025 年 ICCE 論文摘要報告初步概念測驗改善，也指出學生主動與 AI 互動仍有限。",
+    "evidence": "原研究對象是國中生，並非國小。初步結果不等於已證明適合所有年段；需檢查樣本、比較條件與測驗。國小活動是本站轉化建議。",
+    "question": "物體移動後，像的位置與大小會怎麼變？",
+    "steps": [
+      "先用圖卡預測物體在不同位置時的成像。",
+      "以安全光源、凸透鏡與屏幕觀察，對照光路示意或 AR。",
+      "讓 AI 追問預測與觀察的差異，再由學生用實測紀錄修正解釋。"
+    ],
+    "output": "物距與成像紀錄、預測—觀察—解釋表。",
+    "image": {
+      "url": "assets/cases/ar-platform.png",
+      "caption": "原論文第2頁的平台操作畫面，呈現 AR 光路與 AI Tutor 介面。",
+      "credit": "Wang、Huang、Chen、Liu，ICCE 2025",
+      "source": "https://library.apsce.net/index.php/ICCE/article/download/6071/6001/7243#page=2",
+      "kind": "原論文平台圖"
+    },
+    "sources": [
+      {
+        "title": "A Science Experiment Platform Integrating AI Tutors in a Head-Mounted Display Augmented Reality Environment",
+        "url": "https://library.apsce.net/index.php/ICCE/article/view/6071",
+        "type": "會議論文",
+        "note": "摘要、作者與 DOI：10.58459/icce.2025.6071。"
+      },
+      {
+        "title": "ICCE 原論文全文與平台圖",
+        "url": "https://library.apsce.net/index.php/ICCE/article/download/6071/6001/7243",
+        "type": "原文 PDF",
+        "note": "3頁；圖像與平台設計。"
+      }
+    ],
+    "safety": "不可用透鏡觀看太陽或聚焦陽光；採用安全的室內光源。"
+  },
+  "AISC-0004": {
+    "story": "研究比較生成式 AI 聊天機器人與搜尋引擎，在國小科學探究中如何支援學生提出問題。參與者為中國一所小學兩班、共97名三年級學生。",
+    "method": "以班級分派兩種工具，經三輪探究活動，分析提問表現與學習經驗。研究報告聊天機器人組的問題品質與整體提問能力較佳。",
+    "evidence": "屬單校準實驗；48人與49人的班級比較不等於所有學生均受益。工具、語言與教師安排也會影響結果，繁體中文課堂需另行檢驗。",
+    "question": "『植物需要水嗎？』如何改成能實際研究的問題？",
+    "steps": [
+      "學生先獨立寫出問題，圈出能觀察或測量的部分。",
+      "分別用搜尋資料與 AI 追問修訂問題，保留原稿。",
+      "以可測量、範圍清楚、方法可行的共同規準比較問題，不只計算題數。"
+    ],
+    "output": "問題初稿與修訂稿、共同評分規準與修訂理由。",
+    "image": {
+      "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs40594-026-00631-0/MediaObjects/40594_2026_631_Fig1_HTML.png",
+      "caption": "原論文圖1：研究實施流程，並非課堂實景照片。",
+      "credit": "Dai 等，International Journal of STEM Education，2026",
+      "source": "https://link.springer.com/article/10.1186/s40594-026-00631-0#Fig1",
+      "kind": "原論文圖表"
+    },
+    "sources": [
+      {
+        "title": "GenAI 聊天機器人與國小科學提問能力研究",
+        "url": "https://link.springer.com/article/10.1186/s40594-026-00631-0",
+        "type": "期刊論文",
+        "note": "2026-06-28；方法、97名參與者與研究結果。"
+      }
+    ]
+  },
+  "AISC-0005": {
+    "story": "韓國研究以80名四年級學生的560份探究觀點回答，測試 ChatGPT-4o 的評分與回饋。研究關心學生是否理解科學探究如何產生知識。",
+    "method": "研究者設計評分提示與規準，再把 AI 分類和人工評分比較，也分析回饋是否有助於學生理解與後續行動。",
+    "evidence": "評分與人工的一致性不能當成學生學會更多的證明。模型版本、語言及題目改變時，都要重新檢查；教師不能直接將 AI 分數當成正式成績。",
+    "question": "兩個人得到不同結果，是否一定有一個人做錯？",
+    "steps": [
+      "先收集不含個資的學生探究回答，由教師建立規準。",
+      "請 AI 提供依據與追問，教師檢查是否誤解學生意思。",
+      "讓學生用觀察資料回應追問，評估修訂內容，而非只比較 AI 分數。"
+    ],
+    "output": "匿名回答、教師覆核表、學生修訂與反思。",
+    "image": {
+      "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10956-026-10298-5/MediaObjects/10956_2026_10298_Fig1_HTML.png",
+      "caption": "原論文圖1：學習者中心回饋的分析規準。",
+      "credit": "Chang、Park、Sim，Journal of Science Education and Technology，2026",
+      "source": "https://link.springer.com/article/10.1007/s10956-026-10298-5#Fig1",
+      "kind": "原論文圖表"
+    },
+    "sources": [
+      {
+        "title": "Harnessing Generative AI to Facilitate Epistemic Understanding of Students in Scientific Inquiry",
+        "url": "https://link.springer.com/article/10.1007/s10956-026-10298-5",
+        "type": "期刊論文",
+        "note": "2026-03-10；80名四年級學生、560份回答。"
+      }
+    ]
+  },
+  "AISC-0006": {
+    "story": "這篇系統性回顧整理24篇 ChatGPT 支援 STEAM 探究的實證研究，觀察 AI 在不同探究階段所扮演的角色與研究缺口。",
+    "method": "作者依探究階段、學科、參與者與研究方法整理文獻。回顧可用來規劃研習討論，但不是一套已驗證有效的通用教案。",
+    "evidence": "所收錄研究沒有國小學生。不同研究的設計與測量不同，不能把各研究的正向結果直接相加，也不能外推成國小成效。",
+    "question": "我們要讓 AI 支援哪個探究階段？如何知道真的有幫助？",
+    "steps": [
+      "教師先畫出一個單元的探究歷程，標記學生最需要支援的地方。",
+      "只選一個階段試用 AI，例如協助檢查研究問題。",
+      "預先決定要收集的學生證據與評量規準，比較介入前後的作品及限制。"
+    ],
+    "output": "單元 AI 使用地圖、證據蒐集計畫與教師反思。",
+    "image": {
+      "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs40594-026-00628-9/MediaObjects/40594_2026_628_Fig2_HTML.png",
+      "caption": "原論文圖2：ChatGPT 支援 STEAM 探究的分析架構。",
+      "credit": "Jiang 等，International Journal of STEM Education，2026",
+      "source": "https://link.springer.com/article/10.1186/s40594-026-00628-9#Fig2",
+      "kind": "原論文圖表"
+    },
+    "sources": [
+      {
+        "title": "The AI-powered co-inquirer：ChatGPT 與 STEAM 探究系統性回顧",
+        "url": "https://link.springer.com/article/10.1186/s40594-026-00628-9",
+        "type": "系統性回顧",
+        "note": "2026-06-14；24篇研究；需特別閱讀年段分布與限制。"
+      }
+    ]
+  },
+  "AISC-0007": {
+    "story": "AlphaFold 用 AI 從蛋白質資訊推測三維結構，讓研究者有更多可檢查的結構模型。EMBL-EBI 資料庫提供預測結果，協助形成後續研究問題。",
+    "method": "研究者可查詢預測結構及其信心資訊，再對照生物化學知識與實驗。模型能縮小探索範圍，但不能取代所有結構與功能驗證。",
+    "evidence": "結構圖是預測模型，不表示每個原子位置都已實驗測定。結構的局部可靠度與分子在不同環境下的狀態，都會影響解釋。",
+    "question": "模型看起來很精細，是否就代表每個部分都同樣可靠？",
+    "steps": [
+      "教師挑選公開結構範例，學生用紙條或積木表現不同形狀。",
+      "比較模型的不同區域，練習辨認預測與測量的差別。",
+      "列出想確認的功能問題，討論還需要哪種實驗證據。"
+    ],
+    "output": "結構模型、預測與實測比較表、待驗證問題清單。",
+    "image": {
+      "url": "https://lh3.googleusercontent.com/tCRI7_eB2xG2ssNqy6TswbHEQP-Bwe1pG0Emtg7JLZq4y2Ju4IqCJ67ECtbL6kn7LBR0oHKRrvMR4rQScEUkiCI4T1XtWACvttij9xfq9Tx6i12bmw=w1440-h810-n-nu",
+      "caption": "官方蛋白質結構視覺化；不是實驗拍攝的分子照片。",
+      "credit": "Google DeepMind",
+      "source": "https://deepmind.google/science/alphafold/",
+      "kind": "官方模型示意"
+    },
+    "sources": [
+      {
+        "title": "AlphaFold 官方研究介紹與影片",
+        "url": "https://deepmind.google/science/alphafold/",
+        "type": "官方專案",
+        "note": "版本、用途與研究背景。"
+      },
+      {
+        "title": "AlphaFold Protein Structure Database",
+        "url": "https://alphafold.ebi.ac.uk/",
+        "type": "研究資料庫",
+        "note": "查看結構模型與信心資訊。"
+      }
+    ]
+  },
+  "AISC-0008": {
+    "story": "AlphaGenome 關心 DNA 序列變化可能如何影響基因調控。模型讓研究者比較序列版本，找出值得進一步檢驗的候選效應。",
+    "method": "將序列輸入模型，產生與基因調控相關的預測；再用預測差異提出假說。官方介紹指出研究後續於2026年發表於 Nature。",
+    "evidence": "模型推測的調控改變不等於已證明會造成某種疾病或個人特質。這是教師延伸閱讀，不適合讓國小學生使用個人基因資料實作。",
+    "question": "序列只改一個符號，是否一定會造成明顯影響？",
+    "steps": [
+      "用自製符號規則卡模擬訊息編碼，不使用真實個人基因。",
+      "改動一個符號，依規則預測結果，記錄不確定情況。",
+      "討論模型假設與真實生物系統的差距，提出需要驗證的問題。"
+    ],
+    "output": "規則模型、預測紀錄、模型適用範圍說明。",
+    "image": {
+      "url": "https://lh3.googleusercontent.com/yLg7d2oeaNPTxb9kKu5m6bM6lA7PAjnlJ2bmPMrtQSr2GGICGH_P9sV_z4k92yvmvrlvOnKfuKWzqO5X8-w5djihD8OSwuHWeexKShGmxmTpy6fr8w=w1440-h810-n-nu",
+      "caption": "官方 DNA 主題示意，非顯微鏡照片。",
+      "credit": "Google DeepMind",
+      "source": "https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/",
+      "kind": "官方示意圖"
+    },
+    "sources": [
+      {
+        "title": "AlphaGenome：基因體調控預測的官方介紹",
+        "url": "https://deepmind.google/blog/alphagenome-ai-for-better-understanding-the-genome/",
+        "type": "官方研究報導",
+        "note": "2025-06-25，含2026年論文更新連結。"
+      }
+    ]
+  },
+  "AISC-0009": {
+    "story": "中央大學新聞網收錄的報導介紹利用地震波影像訓練深度學習模型，讓系統在地震發生後估計震度，爭取強烈搖晃抵達前的預警時間。",
+    "method": "模型學習歷史地震波與震度的關係，再以測試事件評估表現。預警時間受到位置與波傳遞時間影響，靠近震央可能來不及收到提醒。",
+    "evidence": "這是地震早期預警，不是預知地震何時發生。報導中的94%包含震度正負一級的容許誤差；不能脫離判定規則當作通用準確率。",
+    "question": "地震已經發生，為什麼有些地方還能先收到警報？",
+    "steps": [
+      "用示意地圖標出震源、測站與不同距離的學校。",
+      "用兩種速度的訊號卡模擬通報與震波抵達，不當作真實預報。",
+      "比較可用反應時間，討論評估預警時需要哪些指標。"
+    ],
+    "output": "到達時間示意表、預警與預測差異說明。",
+    "sources": [
+      {
+        "title": "中央大學新聞網：AI 地震預警系統測試報導",
+        "url": "https://ncusec.ncu.edu.tw/news/press_content.php?P_ID=40894",
+        "type": "大學轉載報導",
+        "note": "含測試條件與容許誤差；不是目前部署狀態證明。"
+      }
+    ],
+    "diagram": {
+      "icons": [
+        "〰",
+        "◈",
+        "⚑"
+      ],
+      "labels": [
+        "地震波訊號",
+        "AI估計震度",
+        "預警與驗證"
+      ]
+    }
+  },
+  "AISC-0010": {
+    "story": "國家災害防救科技中心的防災新視界節目介紹 AI 如何用在雨量解析、能見度監測與天氣分類，連結大量氣象資料與防災決策。",
+    "method": "AI 對既有觀測與預報資料進行分析，產生可供專業人員參考的產品。不同任務需要不同資料、時間尺度與驗證方式。",
+    "evidence": "節目是應用介紹，並非單一演算法的完整比較實驗。不能據此承諾某個地點、某一天的預報一定正確。",
+    "question": "預報說會下雨，我們應該怎麼記錄並檢查？",
+    "steps": [
+      "固定時間保存同一來源的降雨預報，預先訂好比較時段。",
+      "紀錄校園觀測或官方雨量，分開記錄預報與實測。",
+      "統計命中與落差，討論地點差異、時間範圍與資料缺漏。"
+    ],
+    "output": "預報—觀測對照表、誤差說明與資料來源。",
+    "sources": [
+      {
+        "title": "人工智慧在氣象預警的應用｜防災新視界 EP.07",
+        "url": "https://ncdr.nat.gov.tw/podcast2024/Page07.html",
+        "type": "官方節目／影片",
+        "note": "2024-07-25；可觀看影片、收聽及下載逐字稿。"
+      }
+    ],
+    "diagram": {
+      "icons": [
+        "☁",
+        "▥",
+        "☂"
+      ],
+      "labels": [
+        "氣象觀測",
+        "模型分析",
+        "預報比對"
+      ]
+    }
+  },
+  "AISC-0011": {
+    "story": "NeuralGCM 把物理大氣模型與神經網路結合。Google Research 介紹以衛星降水觀測訓練的版本，用來模擬全球降水的時間與空間特徵。",
+    "method": "由物理計算處理部分大氣運動，再用機器學習表達難以直接解析的過程；以觀測資料與其他方法比較模擬表現。",
+    "evidence": "全球尺度與長時間模擬不能直接當成校園逐時天氣預報。改善特定指標不代表所有區域、季節與極端事件都同樣準確。",
+    "question": "一個能描述全球趨勢的模型，能回答操場幾點下雨嗎？",
+    "steps": [
+      "比較全球、區域與校園三種尺度的資料圖。",
+      "用簡化規則預測示例資料，記錄模型無法處理的情況。",
+      "討論要回答更細的問題時，需要補充哪些觀測。"
+    ],
+    "output": "尺度比較圖、模型假設與限制清單。",
+    "image": {
+      "url": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+      "caption": "Google Research 原報導的降水模擬主題圖。",
+      "credit": "Google Research",
+      "source": "https://research.google/blog/neuralgcm-harnesses-ai-to-better-simulate-long-range-global-precipitation/",
+      "kind": "研究視覺化"
+    },
+    "sources": [
+      {
+        "title": "NeuralGCM 全球降水模擬研究報導",
+        "url": "https://research.google/blog/neuralgcm-harnesses-ai-to-better-simulate-long-range-global-precipitation/",
+        "type": "官方研究報導",
+        "note": "2026-01-12；附論文、程式庫與模型文件。"
+      }
+    ]
+  },
+  "AISC-0012": {
+    "story": "SILIC 是生物音智慧辨識與標記系統，協助整理環境錄音中的動物聲音。長時間錄音可以保留人員不在現場時的聲景紀錄。",
+    "method": "系統對聲音片段提供辨識標記；研究者仍需核對聲音、環境與候選物種。工具入口提供物種／聲音清單及閾值設定。",
+    "evidence": "模型分數與閾值影響標記，不同背景噪音與物種可能產生誤判。這次確認工具入口與介紹影片，未對校園錄音完成準確率測試。",
+    "question": "AI 標出某種動物，還需要哪些證據才可列入觀察紀錄？",
+    "steps": [
+      "在同一地點、同長度與固定時段錄音，避開個人對話。",
+      "使用辨識工具整理候選標記，保存原始聲音與時間。",
+      "人工聆聽並比對參考聲音，將確認與待確認分開統計。"
+    ],
+    "output": "聲景紀錄、候選標記與人工覆核表。",
+    "sources": [
+      {
+        "title": "SILIC 生物音智慧辨識與標記系統",
+        "url": "https://silic.tbn.org.tw/",
+        "type": "官方工具入口",
+        "note": "物種清單、錄音分析與閾值設定。"
+      },
+      {
+        "title": "科技大觀園：SILIC 專家介紹",
+        "url": "https://www.youtube.com/watch?v=W9RvpymJ-9w",
+        "type": "介紹影片",
+        "note": "2025-11-17；原站可觀看影片與畫面，本站未逐段核對影片。"
+      }
+    ],
+    "diagram": {
+      "icons": [
+        "♪",
+        "▥",
+        "✓"
+      ],
+      "labels": [
+        "環境錄音",
+        "候選標記",
+        "人工覆核"
+      ]
+    }
+  },
+  "AISC-0013": {
+    "story": "BirdNET 以深度學習分析聲音，協助鳥類與生物聲學監測。手機版本讓使用者錄下短片段，再取得可能的物種建議。",
+    "method": "官方介紹的流程為錄音、建立聲譜資訊、模型分析與候選建議；研究用途也可處理大量被動錄音資料。",
+    "evidence": "模型候選仍需人工確認，背景聲與地區差異會影響結果。辨識到叫聲不代表可直接換算鳥的隻數，也不代表沒辨識到就是沒有鳥。",
+    "question": "同一隻鳥連叫十次，能不能記成十隻鳥？",
+    "steps": [
+      "同地點比較晨間與午間等長錄音，記錄天氣與干擾。",
+      "以固定設定分析，將分數與候選名稱存入表格。",
+      "人工覆核後比較聲音事件或確認物種，明確說明不是個體數量。"
+    ],
+    "output": "錄音清單、人工覆核紀錄、不同時段的聲音事件圖。",
+    "sources": [
+      {
+        "title": "BirdNET App：操作流程與介面相片",
+        "url": "https://birdnet.cornell.edu/app/",
+        "type": "官方工具／相片",
+        "note": "原站可查看 App 介面及辨識流程。"
+      },
+      {
+        "title": "BirdNET 研究論文列表",
+        "url": "https://birdnet.cornell.edu/publications/",
+        "type": "研究文獻",
+        "note": "含2021年 avian diversity monitoring 研究。"
+      }
+    ],
+    "diagram": {
+      "icons": [
+        "♫",
+        "◈",
+        "✓"
+      ],
+      "labels": [
+        "鳥聲片段",
+        "模型建議",
+        "人工確認"
+      ]
+    }
+  },
+  "AISC-0014": {
+    "story": "iNaturalist 將自然觀察、影像建議與社群鑑定結合。使用者以觀察照片留下紀錄，再由社群協助討論可能的物種。",
+    "method": "AI 建議可作為查找起點；照片是否呈現足夠特徵、拍攝地點與時間等資訊，仍影響後續鑑定。",
+    "evidence": "AI 候選不等於正式鑑定，平台觀察數也受拍攝努力影響。比較兩區生物時，不能忽略搜尋時間、可見度與季節。",
+    "question": "兩個地方拍到的物種不同，是環境差異，還是觀察方法不同？",
+    "steps": [
+      "規定兩區相同觀察時間與範圍，拍攝足以辨識的特徵。",
+      "先自行分類，再對照 AI 與社群建議，保留待確認項目。",
+      "比較紀錄並討論採樣偏差；移除學生與敏感物種定位資訊。"
+    ],
+    "output": "觀察照片、分類理由、等努力調查比較表。",
+    "image": {
+      "url": "https://static.inaturalist.org/sites/1-shareable_image.png?1573071871",
+      "caption": "iNaturalist 官方網站主題圖；非本站學生調查照片。",
+      "credit": "iNaturalist",
+      "source": "https://www.inaturalist.org/",
+      "kind": "官方專案圖"
+    },
+    "sources": [
+      {
+        "title": "iNaturalist：觀察資料、照片與社群鑑定",
+        "url": "https://www.inaturalist.org/",
+        "type": "官方公民科學平台",
+        "note": "可查看公開觀察；各照片的授權需分別確認。"
+      }
+    ]
+  },
+  "AISC-0015": {
+    "story": "MIT 團隊用機器學習尋找具有抗菌潛力的化合物，選出 halicin 後，再以實驗檢查候選物。這個案例呈現 AI 篩選與實驗驗證的分工。",
+    "method": "模型從化合物資料學習，縮小待測候選範圍；研究人員接續做抗菌測試，而不是只靠模型分數宣稱藥物有效。",
+    "evidence": "2020年報導中的實驗室及動物證據，不等於已完成人體臨床試驗或核准上市。本站不提供用藥建議或細菌培養操作。",
+    "question": "AI 推薦的候選物，為什麼還要做實驗？",
+    "steps": [
+      "使用教師自製的候選卡片與虛構數據，不操作微生物。",
+      "依事先訂定的規則篩選，再揭露模擬測試結果。",
+      "比較預測與測試，記錄錯過的候選與誤判，討論篩選取捨。"
+    ],
+    "output": "候選篩選表、預測與結果對照、後續驗證計畫。",
+    "image": {
+      "url": "https://news.mit.edu/sites/default/files/images/202002/MIT-New-Antibiotic-01.jpg",
+      "caption": "MIT 原報導研究圖像，請配合原文圖說閱讀。",
+      "credit": "Collins Lab at MIT／MIT News，2020",
+      "source": "https://news.mit.edu/2020/artificial-intelligence-identifies-new-antibiotic-0220",
+      "kind": "研究圖像"
+    },
+    "sources": [
+      {
+        "title": "Artificial intelligence yields new antibiotic",
+        "url": "https://news.mit.edu/2020/artificial-intelligence-identifies-new-antibiotic-0220",
+        "type": "大學研究報導",
+        "note": "2020-02-20；含圖說與原研究脈絡。"
+      }
+    ]
+  },
+  "AISC-0016": {
+    "story": "研究者重新分析 Kepler 太空望遠鏡累積的亮度資料，利用機器學習找出較微弱的行星凌日訊號，其中包含 Kepler-90i。",
+    "method": "模型從已經人工檢查的訊號學習分類，再搜尋其他恆星的微弱亮度下降；候選訊號仍需研究者排除其他解釋。",
+    "evidence": "亮度下降不必然由行星造成。NASA 2017年報導是在當時的發現背景下撰寫，不能把歷史的行星數排名當成現在的排名。",
+    "question": "看到亮度下降，如何排除雜訊或其他天體的影響？",
+    "steps": [
+      "用燈與遮擋物製作凌日示意，記錄亮度變化概念。",
+      "閱讀教師提供的示例光變資料，找出可能的週期。",
+      "比較有雜訊與無雜訊資料，列出確認行星需要的額外證據。"
+    ],
+    "output": "光變曲線、候選訊號與替代解釋表。",
+    "image": {
+      "url": "https://www.nasa.gov/wp-content/uploads/2017/12/17-098.jpg",
+      "caption": "Kepler-90 行星系統示意；不是直接拍到所有行星的合照。",
+      "credit": "NASA／Wendy Stenzel，2017",
+      "source": "https://www.nasa.gov/news-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star/",
+      "kind": "NASA 科學示意"
+    },
+    "sources": [
+      {
+        "title": "NASA：AI 與 Kepler 資料發現第八顆行星",
+        "url": "https://www.nasa.gov/news-release/artificial-intelligence-nasa-data-used-to-discover-eighth-planet-circling-distant-star/",
+        "type": "官方研究新聞",
+        "note": "2017-12-14；原報導含研究連結與行星系統圖。"
+      }
+    ]
+  },
+  "AISC-0017": {
+    "story": "Berkeley Lab 的 A-Lab 結合機器人、材料資料與 AI，嘗試讓材料合成形成自動循環：提出條件、執行實驗、分析產物，再調整下一輪。",
+    "method": "實驗室讓機器執行指定合成及分析流程。教學重點是讓學生看見預測必須接受實際材料測試，而不是把機器執行等同研究已完成。",
+    "evidence": "官方2023年介紹適合了解設備與流程。早期論文的成果數字與後續修訂需回到期刊最新版本檢查；本站不沿用早期『新材料數量』作成定論。",
+    "question": "實驗失敗後，下一輪應改哪個條件？",
+    "steps": [
+      "用紙上材料任務模擬研究，預先設定成功判定規則。",
+      "每輪只改一項條件，由教師提供模擬結果。",
+      "根據結果選擇下一輪條件，保存失敗紀錄並比較不同策略。"
+    ],
+    "output": "實驗決策樹、每輪條件與結果、修正理由。",
+    "image": {
+      "url": "https://newscenter.lbl.gov/wp-content/uploads/2023/04/XBD-202303-048-001.jpg",
+      "caption": "A-Lab 原報導實驗室照片。",
+      "credit": "Berkeley Lab，2023；完整攝影署名請見原站",
+      "source": "https://newscenter.lbl.gov/2023/04/17/meet-the-autonomous-lab-of-the-future/",
+      "kind": "實驗室照片"
+    },
+    "sources": [
+      {
+        "title": "Meet the Autonomous Lab of the Future",
+        "url": "https://newscenter.lbl.gov/2023/04/17/meet-the-autonomous-lab-of-the-future/",
+        "type": "官方研究報導／照片",
+        "note": "自動化設備、操作流程與原站照片。"
+      },
+      {
+        "title": "A-Lab 期刊論文頁：核對目前版本與修訂",
+        "url": "https://www.nature.com/articles/s41586-023-06734-w",
+        "type": "期刊版本入口",
+        "note": "已找到期刊入口；本次讀取受限，修訂細節待全文核對。"
+      }
+    ]
+  },
+  "AISC-0018": {
+    "story": "GNoME 用圖神經網路等計算方法探索候選晶體結構，讓材料研究者更有效率地挑選值得研究的組合。",
+    "method": "先產生或評估候選結構，再以計算篩選可能穩定的材料；後續是否能合成、純度與性能如何，仍需要不同層次的驗證。",
+    "evidence": "2023年官方報導的『發現』含計算預測，不能改寫成全部已合成或可用於產品。候選的新穎性與穩定性也要檢查定義及資料版本。",
+    "question": "電腦認為穩定的結構，為什麼不一定做得出來？",
+    "steps": [
+      "用色塊組合代表候選結構，事先訂出簡化穩定規則。",
+      "先篩選候選，再用另一組規則模擬製作限制。",
+      "比較兩階段保留下來的結果，區分預測穩定、合成成功與實用性能。"
+    ],
+    "output": "兩階段篩選圖、候選狀態標籤、驗證需求。",
+    "image": {
+      "url": "https://lh3.googleusercontent.com/fgLmCTD_ewJsr3lF-PXi9F0IHL_WOQ4otgmKVl9dI36NVpUoWq648P9mRgxtY0c01akcseKRHkKBscL8kZ-gQT90t9gZBxHNdB9w-fkkV6mLHC-gFA=w1440-h810-n-nu",
+      "caption": "官方材料主題拼圖；不是全部候選晶體的實驗照片。",
+      "credit": "Google DeepMind，2023",
+      "source": "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
+      "kind": "官方主題示意"
+    },
+    "sources": [
+      {
+        "title": "GNoME：Millions of new materials discovered with deep learning",
+        "url": "https://deepmind.google/blog/millions-of-new-materials-discovered-with-deep-learning/",
+        "type": "官方研究報導",
+        "note": "2023-11-29；應區分預測與實驗合成。"
+      },
+      {
+        "title": "Berkeley Lab：GNoME 與 Materials Project 資料庫",
+        "url": "https://newscenter.lbl.gov/2023/11/29/google-deepmind-new-compounds-materials-project/",
+        "type": "研究機構報導",
+        "note": "候選資料與材料資料庫的關係。"
+      }
+    ]
+  },
+  "AISC-0019": {
+    "story": "AlphaEvolve 結合語言模型產生程式候選、自動評估與演化搜尋，在可計算評分的任務中反覆保留並改進演算法。",
+    "method": "先定義評估器，再讓模型提出候選程式，執行檢查與計分後選擇下一輪。評估規則決定系統往哪個方向改進。",
+    "evidence": "通過一組測試不代表所有輸入都正確，也不等於已完成數學證明。若評估器有漏洞，分數變好仍可能偏離真正目標。",
+    "question": "程式得到最高分，就一定是最好的解法嗎？",
+    "steps": [
+      "選擇可理解的排序或路徑任務，先由學生提出解法。",
+      "使用固定測試案例比較步數、正確率與特殊情況。",
+      "增加沒看過的新測試，記錄原本高分策略的失敗情況並修正。"
+    ],
+    "output": "演算法流程圖、共同測試集、失敗案例與修訂。",
+    "image": {
+      "url": "https://lh3.googleusercontent.com/T74nmrfjiYn3BSi9kER7e_aUUiCEbXJv-ADL2NxWUW8tVJScn-sexAu0m5sXe8tLguMOhsvGeueaqmpByjaNB1xf3fAbFY7EdG96qUAVflkt-uxL=w1440-h810-n-nu",
+      "caption": "官方演算法探索主題示意；不是實驗測量圖。",
+      "credit": "Google DeepMind，2025",
+      "source": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "kind": "官方示意圖"
+    },
+    "sources": [
+      {
+        "title": "AlphaEvolve：模型與自動評估器的演算法搜尋",
+        "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+        "type": "官方研究報導",
+        "note": "2025-05-14；含方法、範例與研究連結。"
+      }
+    ]
+  }
+}
