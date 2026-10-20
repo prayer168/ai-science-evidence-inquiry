@@ -88,5 +88,10 @@
     "file": "python.svg",
     "source": "https://www.python.org/static/community_logos/python-logo-generic.svg",
     "info": "vector"
+  },
+  "pytorch-icon": {
+    "file": "pytorch-icon.png",
+    "source": "https://pytorch.org/wp-content/uploads/2024/10/cropped-favicon-192x192.webp",
+    "info": "Official site icon, preserves alpha; clearer on light avatar background"
   }
 }
